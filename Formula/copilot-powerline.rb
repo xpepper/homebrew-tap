@@ -1,25 +1,25 @@
 class CopilotPowerline < Formula
   desc "A fast, customizable powerline status line for GitHub Copilot CLI"
   homepage "https://github.com/xpepper/copilot-powerline"
-  version "0.11.0"
+  version "0.12.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.11.0/copilot-powerline-aarch64-apple-darwin.tar.xz"
-      sha256 "4a297bd90c4429ba16c2cec66f5d032acb7ef423d65f094d007cb60ccd5a5724"
+      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.12.0/copilot-powerline-aarch64-apple-darwin.tar.xz"
+      sha256 "4da3116f6aefc8d561f19349c97c4082418aa8e7de820ba128b03d8fa9454e35"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.11.0/copilot-powerline-x86_64-apple-darwin.tar.xz"
-      sha256 "2f9f53932d570eeed9db92b0123a81d325ef59668aba301011b3743e3ba4e7c5"
+      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.12.0/copilot-powerline-x86_64-apple-darwin.tar.xz"
+      sha256 "f67ae1b3be0f88e8804ffd043a7d7eaf6136150967251d2a919035997864956c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.11.0/copilot-powerline-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6371efe18020708aa3c240fc8896c060765b1e4d9b8d761d03ef1d4c656d53e9"
+      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.12.0/copilot-powerline-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "004954532691ae633f48e979dc4f72732c8db23f21a975944b2f722d607cb218"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.11.0/copilot-powerline-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0ee741fa2ca74588eb451f6571ae2a520cb37507a4ca52c5785db792fcc3a669"
+      url "https://github.com/xpepper/copilot-powerline/releases/download/v0.12.0/copilot-powerline-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3e55d6d5ebe2165a6c9a0e5241adfafaa8305d63e521721330a1b0ba9badc625"
     end
   end
   license "MIT"
